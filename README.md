@@ -6,7 +6,6 @@ $env:GOARCH="amd64"
 xcaddy build v2.11.4 --output ./caddy_linux_amd64 `
 --with github.com/greenpau/caddy-security `
 --with github.com/caddyserver/replace-response `
---with github.com/caddyserver/replace-response `
 --with github.com/sjtug/caddy2-filter `
 --with github.com/mholt/caddy-webdav `
 --with github.com/mholt/caddy-l4 `
